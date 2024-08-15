@@ -37,8 +37,8 @@ if 'Logo' not in data.columns:
 data["Logo"] = data["Logo"].apply(image_to_base64)
 
 image_column = st.column_config.ImageColumn(label="")
-nazev_column = st.column_config.TextColumn(label="Název společnosti")
-market_cap_column = st.column_config.TextColumn(label="Tržní kapitalizace 💬",help="📍**v mld. USD**")
+nazev_column = st.column_config.TextColumn(label="Nom de l'entreprise")
+market_cap_column = st.column_config.TextColumn(label="Capitalisation boursière 💬",help="📍**v mld. USD**")
 price_column = st.column_config.TextColumn(label="Cena za 1 akcii 💬", help="📍**Uzavírací cena za předchozí den (v USD)**")
 
 # Adjust the index to start from 1 and display only the first 25 companies
