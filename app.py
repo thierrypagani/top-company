@@ -6,8 +6,8 @@ import io
 import os
 
 # Vykreslení tabulky s logy
-st.markdown("<h1 style='text-align: center;'>Žebříček největších společností světa</h1>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; font-size: 20px;'>Podle tržní kapitalizace v miliardách dolarů </p>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Classement des plus grandes entreprises mondiales</h1>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size: 20px;'>Par capitalisation boursière en milliards de dollars </p>", unsafe_allow_html=True)
 st.write("")
 
 # Load the data
